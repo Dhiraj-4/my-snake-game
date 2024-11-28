@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    height: 100vh;
+}
+body #socre-board {
+    font-size: 40px;
+    font-weight: 700;
+}
+body #game-arena {
+    margin: auto;
+    width: 600px;
+    height: 600px;
+    background-color: black;
+    border: 10px solid wheat;
+    box-shadow: 0px 0px 30px rgb(0,0,0.4);
+    position: relative;
+}
+body #game-arena .snake {
+    background-color: #7CFC00;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    position: absolute;
+}
+
+body #game-arena .food {
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+}
+body #startGame {
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 35px 20px 35px;
+    color: white;
+    font-weight: 700;
+    margin-top: 5px;
+}
